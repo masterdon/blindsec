@@ -1,0 +1,4 @@
+# 11/30/2015 - draikes - cloned git://git.kali.org/live-build-config.git
+# 11/30/2015 - draikes - Modified auto/config 
+#            changed hostname to blindsec
+#            added persistence option
