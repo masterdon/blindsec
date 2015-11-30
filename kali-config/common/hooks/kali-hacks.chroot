@@ -18,3 +18,6 @@ mkdir -p /etc/systemd/network
 ln -sf /dev/null /etc/systemd/network/90-mac-for-usb.link
 ln -sf /dev/null /etc/systemd/network/99-default.link
 update-initramfs -u
+
+# start ssh on boot
+systemctl start ssh

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+update-rc.d -f gdm3 remove
+ln -sf /usr/sbin/gdm3 /usr/sbin/startx
+
+exit 0

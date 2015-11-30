@@ -2,3 +2,16 @@
 # 11/30/2015 - draikes - Modified auto/config 
 #            changed hostname to blindsec
 #            added persistence option
+# 11/30/2015 - draikes - added files to kali-config/common/includes.chroot
+#              /etc/rc.local
+#              /etc/default/brltty
+#              /etc/modprobe.d/local.conf
+#              /etc/ssh/sshd_config
+#              /var/lib/alsa/asound.state
+#              /root/.xinitrc
+# 11/30/2015 - draike - updated kali-config/common/hooks
+#              added disable-gdm.chroot
+#              modified kali-hacks.chroot
+# 11/30/2015 - draikes - updated kali-config/common/package-lists
+#              added accessibility.list.chroot
+#              added custom.list.chroot
